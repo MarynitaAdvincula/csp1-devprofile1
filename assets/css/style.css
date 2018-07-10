@@ -1,0 +1,188 @@
+/*
+ *
+ *
+ * CSS Reset
+ *
+ */
+
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+/*
+ *
+ *General Rules
+ *
+ */
+
+body{
+	/*background-color: red;*/
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+section {
+	min-height: 100vh;
+}
+
+/*
+ *
+ * Sections
+ *
+ */
+
+section#bio {
+	background-color: #c0c0c0;
+	background-image: url('../img/img2.jpg');
+	background-size: cover; 
+	position: relative;
+}	
+
+section#bio > div {
+	background-color: rgba(192,192,192,0.6);
+	width: 100%;
+	height:100vh;
+}
+
+section#bio,
+section#bio  a {
+	color: #0a0a0a;	
+}
+
+section#bio > div > header > p {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right:10px;
+}
+
+section#bio > div > header {
+	position:relative;
+}
+
+section#bio > div > header > p:last-child {
+	position: absolute;
+	right: 0;
+	top:0;
+} 
+
+section#bio > div > div#details > img {
+	border-radius: 80%;
+	width: 200px;
+	/*border: 5px solid black;*/
+	padding:5px;
+}
+
+section#bio > div > div#details > h1 {
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+
+h1.pdetails{
+	padding-top: 50px;
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+}
+
+h5.pdetails {
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+section#bio > div > div#details > ul {
+	font-family: 'Muli', sans-serif;
+	font-size: 25px;
+}
+
+ul.asian{
+	list-style: none;
+	font-size: 20px;
+	font-family: 'Muli', sans-serif;
+	line-height: 1.5;
+	margin-left: 60%;
+	text-align: justify;
+	margin-bottom: 10px;
+	-webkit-text-stroke:.1px green;
+}
+
+ul.glenmark{
+	list-style: none;
+	font-size: 20px;
+	font-family: 'Muli', sans-serif;
+	line-height: 1.5;
+	margin-left: 60%;
+	text-align: justify;
+	-webkit-text-stroke:.1px green;
+}
+
+section#bio > div > div#details >ul {
+	list-style: none;
+	font size: 25px;
+	-webkit-text-stroke:.1px green;
+}
+
+section#bio > div > div#details > p {
+	line-height: 1.5;
+	-webkit-text-stroke:.1px green;
+}
+
+div#details {
+	/*border: 1px solid#0a0a0a;*/
+	width: 80%;
+	height: 70%;
+	text-align: left;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+div#pdetails {
+	width: 80%;
+	height: 70%;
+	text-align: right;
+	padding: 15px;
+	position: absolute;
+	top: 40%;
+	left: 60%;
+	transform: translate(-50%, -50%); 
+}
+
+a.add{
+	font-size: 14px;
+}
+
+a.email{
+	font-size: 14px;
+}
+a.mobile{
+	font-size: 14px;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+ footer {
+ 	padding-top: 10px;
+ 	padding-bottom:10px;
+ 	text-align: center;
+ 	background-color: 	#7a5c8d;
+ 	color: black;
+ 	position: absolute;
+ 	bottom: 0;
+ 	width: 100%;
+}
+ 
+footer a{
+	color:black;
+}
+
